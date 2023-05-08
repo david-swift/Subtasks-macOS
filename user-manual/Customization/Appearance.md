@@ -2,13 +2,15 @@
 
 You can customize the appearance of the Subtasks app.
 
+![Appearance Settings][image-1]
+
 ## Toolbar
 
-Add buttons to the toolbar or remove buttons from the toolbar via `View` > `Customize Toolbar…`.
+Add buttons to the toolbar or remove buttons from the toolbar via `View` \> `Customize Toolbar…`.
 
 ## Appearance Settings
 
-You can find many customization options in the appearance tab in the general settings. Open the settings via `Subtasks` > `Settings` > `General` > `Appearance` and in the window that appears, click on `Customize`.
+You can find many customization options in the appearance tab in the general settings. Open the settings via `Subtasks` \> `Settings` \> `General` \> `Appearance` and in the window that appears, click on `Customize`.
 
 ### Change the Theme
 
@@ -34,3 +36,5 @@ This button opens the sheet for customizing the toolbar.
 ### Show or Hide the Toolbar
 
 This buttons show or hide the toolbar in any available window. It’s recommended to not hide the toolbar as it is needed for adding a task or subtask.
+
+[image-1]:	../../Icons/Appearance.png

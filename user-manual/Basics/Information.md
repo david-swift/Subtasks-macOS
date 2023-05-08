@@ -2,6 +2,8 @@
 
 You can view and edit information about a task or subtask in the information sheet.
 
+![Information Sheet][image-1]
+
 ## 1. Show the Information Sheet
 
 ### Show the Information Sheet Using the Context Menu
@@ -38,3 +40,5 @@ Toggle the high priority by pressing on the toggle `High Priority`.
 ## 3. Hide the Information Sheet
 
 You can hide the information sheet of the selected task or subtask via `View` \> `Task Info` or press `⌘I` or `⎋`.
+
+[image-1]:	../../Icons/Information.png

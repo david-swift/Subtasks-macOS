@@ -2,6 +2,8 @@
 
 You can add a task to the list or subtask to a task.
 
+![Task Entry Popover][image-1]
+
 ## 1. Open the Task Entry Popover
 
 Adding a task requires two steps: Opening a text field for entering information about a task and entering the information. There are multiple ways to accomplish the first step.
@@ -44,16 +46,16 @@ If not specified, the description is empty.
 
 The title and description offer basic Markdown styling options. Here is an overview:
 
-| Syntax                             | Effect                             |
-| ---------------------------------- | ---------------------------------- |
-| Text                               | A normal text without any styling. |
-| \*\*Text\*\*               		 | A **bold** text.                   |
-| \_\_Text\_\_               		 | A __bold__ text.                   |
-| \*Text\*                      	 | An *italic* text.                  |
-| \_Text\_                       	 | An _italic_ text.                  |
-| \[Hi\]\(https://www.example.com/\) | A [link][1].                       |
-| \`Text\`                       	 | A `code`.                          |
-| \~Text\~                       	 | A ~~strikethrough~~ text.      |
+| Syntax                                 | Effect                             |
+| -------------------------------------- | ---------------------------------- |
+| Text                                   | A normal text without any styling. |
+| \*\*Text\*\*                   		 | A **bold** text.                   |
+| \_\_Text\_\_                   		 | A __bold__ text.                   |
+| \*Text\*                           	 | An *italic* text.                  |
+| \_Text\_                           	 | An _italic_ text.                  |
+| \[Hi\]\(https://www.example.com/\) 	 | A [link][1].                       |
+| \`Text\`                           	 | A `code`.                          |
+| \~Text\~                           	 | A ~~strikethrough~~ text.      	  |
 
 ### Completion
 
@@ -68,3 +70,5 @@ Write `@p:` followed by `high` for settings the priority to high or anything els
 	@p: high
 
 [1]:	https://example.com/
+
+[image-1]:	../../Icons/AddTask.png

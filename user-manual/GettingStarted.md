@@ -2,6 +2,8 @@
 
 You can use Subtasks to organize your tasks. You start by [adding][1] tasks to the top-level list you can see when you start the app for the first time. By clicking on such a task, you can view the [subtasks][2]. Those are lists exactly like the top-level list: You can add tasks and another layer of subtasks to them. 
 
+![Subtasks][image-1]
+
 Every task and subtask stores the following information in it:
 - A title. The title should concisely state the task. It supports basic Markdown.
 - A description for any additional information. It support basic Markdown.
@@ -20,3 +22,5 @@ Subtasks is an open source project. Visit the [GitHub repository][4] for bug rep
 [2]:	./Basics/Navigation.md
 [3]:	https://github.com/david-swift/Subtasks-macOS/releases/latest/download/Subtasks.app.zip
 [4]:	https://github.com/david-swift/Subtasks-macOS
+
+[image-1]:	../Icons/Overview.png

@@ -2,6 +2,8 @@
 
 You can synchronize the tasks with a [Supabase][2] database, for example for using Subtasks on multiple devices.
 
+![Successful Synchronization][image-1]
+
 1. Sign up or log in on [Supabase][3].
 2. Click on `New project`.
 3. Name your project, and set the password and region.
@@ -27,3 +29,5 @@ create table public.tasks (
 [1]:	https://supabase.com
 [2]:	https://supabase.com
 [3]:	https://app.supabase.com/sign-up
+
+[image-1]:	../../Icons/Synchronization.png

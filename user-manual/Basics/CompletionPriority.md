@@ -21,6 +21,8 @@ You can toggle the completion of the selected task or subtask via `Edit` \> `Com
 
 This button is hidden by default, but you can add it to the toolbar via `View` \> `Customize Toolbar…`. Click on the button to toggle the completion of the selected task or subtask.
 
+![High Priority Subtask “Chocolate”][image-1]
+
 ## Change the Priority of a Task or Subtask
 
 ### Change the Priority of a Task or Subtask Using the Context Menu
@@ -35,3 +37,5 @@ You can change the priority of the selected task or subtask via `Edit` \> `High 
 ### Change the Completion of a Task or Subtask Using the Toolbar Button
 
 This button is hidden by default, but you can add it to the toolbar via `View` \> `Customize Toolbar…`. Click on the button to change the priority of the selected task or subtask.
+
+[image-1]:	../../Icons/HighPriority.png
