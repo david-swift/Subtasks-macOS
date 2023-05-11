@@ -12,7 +12,8 @@ import SwiftUI
 struct ThemesPreview: View {
 
     /// The global color scheme.
-    @Environment(\.colorScheme) var colorScheme
+    @Environment(\.colorScheme)
+    var colorScheme
     /// The selected theme.
     var theme: SchemeTheme
 

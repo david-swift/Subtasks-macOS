@@ -42,12 +42,6 @@ extension CGFloat {
     static var exclamationMarkPadding: CGFloat { -10 }
     /// The width of the preview in the themes settings tab.
     static var themesPreviewWidth: CGFloat { 300 }
-    /// The width of the completion badge in the synchronization settings tab.
-    static var completionBadgeWidth: CGFloat { 200 }
-    /// The radius of the completion badge's shadow.
-    static var completionBadgeShadowRadius: CGFloat { 30 }
-    /// The font size of the completion badge's shadow.
-    static var completionBadgeFontSize: CGFloat { 100 }
 
 }
 

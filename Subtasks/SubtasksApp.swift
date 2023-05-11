@@ -67,17 +67,7 @@ struct SubtasksApp: App {
             "Subtasks Help",
             comment: "SubtasksApp (Label of the help link)"
         ), link: .string("https://david-swift.gitbook.io/subtasks/"))
-        .pigeonSettings {
-            SettingsTab(.init(.init(
-                "Synchronization",
-                comment: "SubtasksApp (Synchronization settings tab)"
-            ), systemSymbol: .arrowTriangle2Circlepath), id: "synchronization") {
-                SettingsSubtab(.noSelection, id: "synchronization") {
-                    SynchronizationSettings()
-                        .environmentObject(appModel)
-                }
-            }
-        }
+        .supabase(data: $appModel.tasks, table: .tasksID)
         .themes { theme in
             ThemesPreview(theme: theme)
         }

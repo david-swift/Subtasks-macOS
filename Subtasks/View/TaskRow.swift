@@ -12,7 +12,8 @@ import SwiftUI
 struct TaskRow: View {
 
     /// The color scheme.
-    @Environment(\.colorScheme) var colorScheme
+    @Environment(\.colorScheme)
+    var colorScheme
     /// The task.
     @Binding var task: Subtask
     /// The current theme.
