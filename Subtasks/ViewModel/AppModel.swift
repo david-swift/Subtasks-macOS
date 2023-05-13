@@ -54,6 +54,15 @@ class AppModel: ObservableObject {
     // swiftlint:disable no_magic_numbers
     /// The app's versions.
     @ArrayBuilder<Version> var versions: [Version] {
+        Version("0.1.1", date: .init(timeIntervalSince1970: 1_683_951_938)) {
+            Version.Feature(.init(
+                "Improved Synchronization",
+                comment: "AppModel (Feature in version 0.1.1)"
+            ), description: .init(
+                "Get changes from the database that were made while the app was closed.",
+                comment: "AppModel (Description of feature in version 0.1.1)"
+            ), icon: .arrowTriangle2Circlepath)
+        }
         Version("0.1.0", date: .init(timeIntervalSince1970: 1_683_448_596)) {
             Version.Feature(.init(
                 "Initial Release",
