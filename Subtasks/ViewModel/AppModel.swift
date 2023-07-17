@@ -54,6 +54,22 @@ class AppModel: ObservableObject {
     // swiftlint:disable no_magic_numbers
     /// The app's versions.
     @ArrayBuilder<Version> var versions: [Version] {
+        Version("0.1.3", date: .init(timeIntervalSince1970: 1_689_609_436)) {
+            Version.Feature(.init(
+                "Updated Settings Design",
+                comment: "AppModel (Feature in version 0.1.3)"
+            ), description: .init(
+                "The buttons for adding and removing themes look more appealing.",
+                comment: "AppModel (Feature in version 0.1.3)"
+            ), icon: .paintbrush)
+            Version.Feature(.init(
+                "New _Updates_ and _About_ Windows",
+                comment: "AppModel (Feature in version 0.1.3)"
+            ), description: .init(
+                "There are windows for _Subtasks > About Subtasks_ and _Subtasks > Updates_.",
+                comment: "AppModel (Feature in version 0.1.3)"
+            ), icon: .macwindow)
+        }
         Version("0.1.2", date: .init(timeIntervalSince1970: 1_684_042_915)) {
             Version.Feature(.init(
                 "Fixed Buggy Undo & Redo",

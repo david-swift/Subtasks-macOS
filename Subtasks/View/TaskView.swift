@@ -34,6 +34,7 @@ struct TaskView: View {
                         .padding(.horizontal, .listRowBackgroundPadding)
                         .opacity(viewModel.selection == index ? 1 : 0)
                 )
+                .listRowSeparator(.hidden)
                 .onHover { if $0 && !viewModel.information { viewModel.selection = index } }
                 .onTapGesture { _ in
                     viewModel.focusedTasks.append(task.id)

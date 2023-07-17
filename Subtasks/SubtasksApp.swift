@@ -75,7 +75,7 @@ struct SubtasksApp: App {
         .versions {
             for version in appModel.versions { version }
         }
-        .keyboardShortcut(.init("n", modifiers: [.shift, .command]))
+        .pigeonKeyboardShortcut(.init("n", modifiers: [.shift, .command]))
         .commands {
             SubtasksCommands()
         }

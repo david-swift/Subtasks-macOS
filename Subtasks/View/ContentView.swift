@@ -21,13 +21,7 @@ struct ContentView: View {
 
     /// The view's body.
     var body: some View {
-        NavigationStack(path: .init {
-            .init(viewModel.focusedTasks)
-        } set: { newValue in
-            if viewModel.focusedTasks.count > newValue.count {
-                _ = viewModel.focusedTasks.popLast()
-            }
-        }) {
+        NavigationStack(path: $viewModel.focusedTasks) {
             TaskView(task: .init {
                 var task = Subtask(id: .superTaskID)
                 task.subtasks = appModel.tasks

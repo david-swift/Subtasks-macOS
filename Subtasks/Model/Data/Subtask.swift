@@ -9,7 +9,7 @@ import ColibriComponents
 import SwiftUI
 
 /// A task.
-public struct Subtask: Identifiable, Codable, Equatable, Bindable {
+public struct Subtask: Identifiable, Codable, Equatable, ColibriComponents.Bindable {
 
     /// The task's id.
     public let id: UUID
@@ -22,7 +22,7 @@ public struct Subtask: Identifiable, Codable, Equatable, Bindable {
     /// The task's priority.
     var highPriority = false
     /// The subtasks.
-    var subtasks: [Subtask] = []
+    var subtasks: [Self] = []
 
     /// A badge showing the amount of subtasks that are not completed.
     var childrenBadge: Int {
